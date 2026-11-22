@@ -1,0 +1,47 @@
+import { type ReactNode } from "react";
+import { costBasis as basis } from "./host.js";
+import type { PlanViewerTheme } from "./PlanViewer.js";
+import type { Plan, PlanNode, QueryStat } from "./types.js";
+export declare function compactOp(op: string): string;
+export type Mark = "changed" | "added" | "removed";
+export type DiagramLens = "time" | "cost" | "rows" | "reads";
+export declare const costBasis: typeof basis;
+export declare function CostStrip({ plan, query, focus, onPick }: {
+    plan: Plan;
+    query?: QueryStat | null;
+    focus?: number | null;
+    onPick: (id: number) => void;
+}): import("react").JSX.Element;
+export declare function PlanDiagram(props: {
+    plan: Plan;
+    query?: QueryStat | null;
+    focus?: number | null;
+    marks?: Map<number, Mark>;
+    selectedId?: number | null;
+    onSelect?: (id: number) => void;
+    initialZoom?: number;
+    badge?: string;
+    bare?: boolean;
+    tints?: Map<number, number>;
+    zoom?: number;
+    onZoomChange?: (zoom: number) => void;
+    showProps?: boolean;
+    showHeader?: boolean;
+    showActualSummary?: boolean;
+    showCostStrip?: boolean;
+    showInsights?: boolean;
+    showControls?: boolean;
+    showMinimap?: boolean;
+    lens?: DiagramLens;
+    defaultLens?: DiagramLens;
+    height?: number | string;
+    kindLabel?: string;
+    overlay?: (node: PlanNode, box: {
+        x: number;
+        y: number;
+        w: number;
+        h: number;
+    }) => ReactNode;
+    theme?: PlanViewerTheme;
+    className?: string;
+}): import("react").JSX.Element;

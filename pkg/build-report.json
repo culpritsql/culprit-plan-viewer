@@ -1,0 +1,907 @@
+{
+  "target": "es2022-react-esm",
+  "native_or_database_work": false,
+  "tools": {
+    "typescript_version": "7.0.2",
+    "lucide_react_version": "1.68.0"
+  },
+  "embedded_catalog": {
+    "language": "en",
+    "message_count": 432,
+    "source_en_sha256": "6001e5746f0ee4f3fdd3f41d5aa1ac02f230f5d626635094b5130ae60ef1c0f8",
+    "engines_sha256": "248786d554da4879147ab3aabb6ca4cbeb33f113cc1554afd5a43a5371aa7844"
+  },
+  "models": [
+    {
+      "name": "Ability",
+      "source_sha256": "7e05fe6e009716f03e63faec6f030e7855225ad924e3250043424790c3e1c59a",
+      "package_sha256": "7e05fe6e009716f03e63faec6f030e7855225ad924e3250043424790c3e1c59a"
+    },
+    {
+      "name": "ActualSummary",
+      "source_sha256": "f2835c5d703e3187b50a066ef0391fe266ce5f79e1f3a95058f41ba687dc890d",
+      "package_sha256": "8b9515cd0828b20fc2f4b5c84bc383732d9b65c67b71350ac77fc6ac3f506a47"
+    },
+    {
+      "name": "CachedStatementContext",
+      "source_sha256": "5d2023fd53d2e330caa2235e4eb7766e869955f5220eb82c764accc0ba057f3c",
+      "package_sha256": "21086e883ee5fb4359a8a6b7968470d2ac12d709558fef377d2a1d7f1cd29ddd"
+    },
+    {
+      "name": "CachedStatementIdentity",
+      "source_sha256": "1c0015e4807190d7794bb33145b796b45e52076184ece1fe563dfc175ca7d504",
+      "package_sha256": "1c0015e4807190d7794bb33145b796b45e52076184ece1fe563dfc175ca7d504"
+    },
+    {
+      "name": "ChangeKind",
+      "source_sha256": "194551024262ce052965cbcf167cac3edcfbf3df5986310ee886d4fa746bb22b",
+      "package_sha256": "194551024262ce052965cbcf167cac3edcfbf3df5986310ee886d4fa746bb22b"
+    },
+    {
+      "name": "CleanupEvidence",
+      "source_sha256": "56dea2d1ce90423080c328757e207defdd28afe0cc64e217ff8e588dac289515",
+      "package_sha256": "56dea2d1ce90423080c328757e207defdd28afe0cc64e217ff8e588dac289515"
+    },
+    {
+      "name": "CollectionTarget",
+      "source_sha256": "6455ac83e7cdf121ab4736b99db8a4cecc2f90c8d02a85357c5562b763e6fc74",
+      "package_sha256": "7cd0d5997416f67361bffa0ac52d0efdbeb9f02bbbeaff01acd809e907e676ab"
+    },
+    {
+      "name": "CompilationMemory",
+      "source_sha256": "e9b2aa874bbccf5a07a37df82a1306866ce29923805b31ef5eb57fa88f7b573b",
+      "package_sha256": "e9b2aa874bbccf5a07a37df82a1306866ce29923805b31ef5eb57fa88f7b573b"
+    },
+    {
+      "name": "CompileHistory",
+      "source_sha256": "1a9e71f35fe9bf884c70ee89e3ea0328a00bdf23d6dda30f600e59289904a918",
+      "package_sha256": "83bb4a6a7199abe4b95f4ef5b733e4aa3349437b71421db2c8deb488fc83062f"
+    },
+    {
+      "name": "Connect",
+      "source_sha256": "1eaf8bd56f38fd48276e8f242a0f4ea0844f90b8cfd9aed2f07da112be1e0750",
+      "package_sha256": "1eaf8bd56f38fd48276e8f242a0f4ea0844f90b8cfd9aed2f07da112be1e0750"
+    },
+    {
+      "name": "ConnectionSecurityMode",
+      "source_sha256": "84d9224cff1e952b89e36165f28d4cec672b566c690f672cc9deb53224614031",
+      "package_sha256": "84d9224cff1e952b89e36165f28d4cec672b566c690f672cc9deb53224614031"
+    },
+    {
+      "name": "ConnectionSecuritySpec",
+      "source_sha256": "b7043aaabf26ff2d351f2bf9e4b7c567947b2c36abc1c0549087bfa600ababa3",
+      "package_sha256": "d5c6a7119de677a635d38ec4a342c8fcf80b8326c8a9775b995d468da0279087"
+    },
+    {
+      "name": "ConstraintValidation",
+      "source_sha256": "bb6fc23b471d63e51483785e3e7174b6234e5262e5a41c4c870a550b8c7a4954",
+      "package_sha256": "bb6fc23b471d63e51483785e3e7174b6234e5262e5a41c4c870a550b8c7a4954"
+    },
+    {
+      "name": "DatabaseIdentity",
+      "source_sha256": "498c192dc4e4b1c65e005f0ca44cc7b0b4cb1abf260037743c16f340a17fcdf6",
+      "package_sha256": "b4ae64a30cf15d8b268c1efeaf3ee4657a5a43761842d44eda0f9281bdca6446"
+    },
+    {
+      "name": "DatabaseLocation",
+      "source_sha256": "8e7f03ed57ad32fae79d4c127ccdb5197b354f2c315d3dab1ce7e4e74d28bb5b",
+      "package_sha256": "8e7f03ed57ad32fae79d4c127ccdb5197b354f2c315d3dab1ce7e4e74d28bb5b"
+    },
+    {
+      "name": "DatabaseProduct",
+      "source_sha256": "961af8a253cb89c3b1071de5fd19446dfe0d92e1de8cde5cfa4015d6c9e6158a",
+      "package_sha256": "961af8a253cb89c3b1071de5fd19446dfe0d92e1de8cde5cfa4015d6c9e6158a"
+    },
+    {
+      "name": "Deadlock",
+      "source_sha256": "6e9891e879e88e41f87699c5820008907add60ac32e405b04e96ffdfa194f089",
+      "package_sha256": "0d11a200412894f5bfdff65d2ce0d088c3820bcf298c96a0b14174e6a2ae7a9f"
+    },
+    {
+      "name": "DeadlockFix",
+      "source_sha256": "55075fe6326f0136c884382b72feac67f1e1e0ae1d393be9a47d4354fab011f6",
+      "package_sha256": "874e500c0950a596491afb0f5e30421d4ebada1ab4fe20c7396a02d1787a4a86"
+    },
+    {
+      "name": "DeadlockFixKind",
+      "source_sha256": "4e4e6b0a98b40cd6c02d000886df776ae77e56824d2ee8e6dae32905b81996e6",
+      "package_sha256": "4e4e6b0a98b40cd6c02d000886df776ae77e56824d2ee8e6dae32905b81996e6"
+    },
+    {
+      "name": "DeadlockPattern",
+      "source_sha256": "0cc12296777a4902b098ddae93bc379d345f1565a8340b90d0559d7b9a89adac",
+      "package_sha256": "0cc12296777a4902b098ddae93bc379d345f1565a8340b90d0559d7b9a89adac"
+    },
+    {
+      "name": "DeadlockProcess",
+      "source_sha256": "8a42e1d16aa7eeceea0f17f76ee2950490bdb2cd72fd5718405a8a67e1befbe9",
+      "package_sha256": "8a42e1d16aa7eeceea0f17f76ee2950490bdb2cd72fd5718405a8a67e1befbe9"
+    },
+    {
+      "name": "DeadlockResource",
+      "source_sha256": "7e860c0796f78806ed040aca34f4359b5815433d6643fe6aecc31a7f5f62f4a8",
+      "package_sha256": "33b2f5da2597a7c8ac49e014a5c59edc04d8d4c21ff6e8aeb245110e107327c6"
+    },
+    {
+      "name": "DistributionPopulation",
+      "source_sha256": "48a65e4e402c3957cb007776ed17b112255c04b6f662ab8b3a5d60379173bb26",
+      "package_sha256": "48a65e4e402c3957cb007776ed17b112255c04b6f662ab8b3a5d60379173bb26"
+    },
+    {
+      "name": "DocdbMetrics",
+      "source_sha256": "09f425a64300ceaf2ba4b4a6cb906a8cac8208916dd71df4c0ba27eb371dc588",
+      "package_sha256": "09f425a64300ceaf2ba4b4a6cb906a8cac8208916dd71df4c0ba27eb371dc588"
+    },
+    {
+      "name": "Engine",
+      "source_sha256": "9c46ff74ded0233bf4ff11474ff9b9ea3176913d0657fc0de6363fe324883acd",
+      "package_sha256": "9c46ff74ded0233bf4ff11474ff9b9ea3176913d0657fc0de6363fe324883acd"
+    },
+    {
+      "name": "EngineAbilities",
+      "source_sha256": "580bcffb6a2d3ccc93e0bcfd0bfd04361ece67e38495fc2b09f8a2ddc5e3e7fa",
+      "package_sha256": "580bcffb6a2d3ccc93e0bcfd0bfd04361ece67e38495fc2b09f8a2ddc5e3e7fa"
+    },
+    {
+      "name": "EngineFacts",
+      "source_sha256": "a77aac44267fd14ddd1ed16c61e309f23556a9e17242d73e6471beb5175ff7a0",
+      "package_sha256": "ef59a95dbda691ce5ab7bb2ed3af3bb66a58edd9299c64b787b488b6034ec4f6"
+    },
+    {
+      "name": "EvidencePresentation",
+      "source_sha256": "9af1128e72d7f049b6d9bfa74d7a9f6a5f46b5e0c83b7911af1769a2bd5de07d",
+      "package_sha256": "ad6d84c3a2d95c940f928fd2217ccf5644b8787516b4b0990f7f46515c50f62b"
+    },
+    {
+      "name": "ExecutionProtection",
+      "source_sha256": "b8fc32740b11fa9aeb7b28bd264aba981ad50a31af3c6ca1ead6c4001c0cd8c0",
+      "package_sha256": "b8fc32740b11fa9aeb7b28bd264aba981ad50a31af3c6ca1ead6c4001c0cd8c0"
+    },
+    {
+      "name": "Guess",
+      "source_sha256": "583209cb03473ded995c96081209c7a82adb51108949a6b83d654def8eabeb87",
+      "package_sha256": "583209cb03473ded995c96081209c7a82adb51108949a6b83d654def8eabeb87"
+    },
+    {
+      "name": "InsightArea",
+      "source_sha256": "5a66f669936f61980221c4721020a6fc2a1c7fe0dbca4b5867a3a26b9ff56934",
+      "package_sha256": "5a66f669936f61980221c4721020a6fc2a1c7fe0dbca4b5867a3a26b9ff56934"
+    },
+    {
+      "name": "LocalizedText",
+      "source_sha256": "bd2d8401c6e86496388e4fdbd64a6a11e867d4b248099ff8007a5508743fe4ec",
+      "package_sha256": "3d47d5bb67302a26253cf9d29e71f090939b8caeea69e0a57aa5f79064f2ebb4"
+    },
+    {
+      "name": "LockHolder",
+      "source_sha256": "dfbdd14b4401ccc9a352ba5ae46db65de0ace0c9c8ee1b98c8512fe679ef5f7a",
+      "package_sha256": "dfbdd14b4401ccc9a352ba5ae46db65de0ace0c9c8ee1b98c8512fe679ef5f7a"
+    },
+    {
+      "name": "LogRateGovernanceReason",
+      "source_sha256": "18cbeb4aba795b021c3ab4e2d6b835288af75288bb37a7083da40dacd403ecac",
+      "package_sha256": "18cbeb4aba795b021c3ab4e2d6b835288af75288bb37a7083da40dacd403ecac"
+    },
+    {
+      "name": "Message",
+      "source_sha256": "1ad00b2c7e7c531cf6de324636d3abe91c3277dbe6268a6a32ba847c5bc19edb",
+      "package_sha256": "26aae057d8139765a0c383e65285185318403985c6e39d6ba19bf53d14fe0060"
+    },
+    {
+      "name": "MessageValue",
+      "source_sha256": "d1e1a41d1fa588488bb7d12a228f44c89a3ccbf4d7cd4338a71628b33c3dc2c5",
+      "package_sha256": "e0392ac34b988b2ae88b82d4e174a04d33abbc33e7284296ba0aed51c98cda06"
+    },
+    {
+      "name": "Metric",
+      "source_sha256": "d666b1e3630fa730cd390f28732087b2ced09732e5d596826cb68ca8084365c5",
+      "package_sha256": "86f71c945b31f7b4b124953d3043648d5033936ebc7abc59a310ea72d17ea1d8"
+    },
+    {
+      "name": "MssqlCatalogIndexColumn",
+      "source_sha256": "6d849ca4c5c7762549392efdc4f9b72dd10ea9d5dacc8a12774a764c8de4a579",
+      "package_sha256": "6d849ca4c5c7762549392efdc4f9b72dd10ea9d5dacc8a12774a764c8de4a579"
+    },
+    {
+      "name": "MssqlCurrentTableType",
+      "source_sha256": "855b550e5a979a9c8f2cce4f9eddf5969d95078a3b6dad7089826e555e5c5f91",
+      "package_sha256": "fad43a6b4e29a56f1660360d5142dc2d130be9548df871ff561d5f2203894c43"
+    },
+    {
+      "name": "MssqlCurrentTypeColumn",
+      "source_sha256": "e7ca81a12847c6706d2523f338218f56c54c173e04e52b5dc6eb90bd92e51b88",
+      "package_sha256": "e7ca81a12847c6706d2523f338218f56c54c173e04e52b5dc6eb90bd92e51b88"
+    },
+    {
+      "name": "MssqlCurrentTypeIndex",
+      "source_sha256": "5f7fee17a325e295450f0c8ac0d8d99d3cde2cc038d196081c863f0137b1620f",
+      "package_sha256": "e15cdc45376b0a417a9dc3a51b65cc44e8ccd78eef4283732136727c408c1a04"
+    },
+    {
+      "name": "MssqlCurrentTypeModule",
+      "source_sha256": "72076b3495af60dc0ef7a37dfe4b39853a10368fd7ee741982a106d8ccc9f233",
+      "package_sha256": "8b5df6240fac355d994a6291a298575b98dff2339d0cb8d20cebf90ee1fa6a4d"
+    },
+    {
+      "name": "MssqlCurrentTypeParameter",
+      "source_sha256": "876ad16422d5f814dbca381cf06c9b499201bf04c139bcdc83d4c1054e303abd",
+      "package_sha256": "876ad16422d5f814dbca381cf06c9b499201bf04c139bcdc83d4c1054e303abd"
+    },
+    {
+      "name": "MssqlCurrentTypeSchema",
+      "source_sha256": "f78a4b61f6aeef857fcab24d097c58e265dabdaefa51e453184160037fa9087b",
+      "package_sha256": "012ffcd133c963e14ea3c8a6e72f18597c02b03d14368e6302340d3d84993941"
+    },
+    {
+      "name": "MssqlCurrentTypeSchemaStatus",
+      "source_sha256": "7b198ef60b7ca6a64bdd7bac89a39348f364a953c041e5381fde67f5e70de6dc",
+      "package_sha256": "7b198ef60b7ca6a64bdd7bac89a39348f364a953c041e5381fde67f5e70de6dc"
+    },
+    {
+      "name": "MssqlIndexParentKind",
+      "source_sha256": "74ff97cd4c3e002904541c2536d1e2e1a7ac13ec4afbaf9734ad850ccd70f2f0",
+      "package_sha256": "74ff97cd4c3e002904541c2536d1e2e1a7ac13ec4afbaf9734ad850ccd70f2f0"
+    },
+    {
+      "name": "MssqlObjectIdentity",
+      "source_sha256": "0a865d4072d0f56fef7476fdc21dd43d0eff714e0ef00e73f804472b6fd74089",
+      "package_sha256": "0a865d4072d0f56fef7476fdc21dd43d0eff714e0ef00e73f804472b6fd74089"
+    },
+    {
+      "name": "NativeIdentity",
+      "source_sha256": "899a25298c7ab4f6bb23a78bdfe63f46e5d6a494481d22e4d1207b8a654c854b",
+      "package_sha256": "899a25298c7ab4f6bb23a78bdfe63f46e5d6a494481d22e4d1207b8a654c854b"
+    },
+    {
+      "name": "NativePlanIdentity",
+      "source_sha256": "32ea705859b80958e4599abaf394754bf39a542242ccc72e40007eb423ee8616",
+      "package_sha256": "72166296da2e6adb9891684a193395ddac7bc4196f746e77783e140b554ecad8"
+    },
+    {
+      "name": "NativeQueryIdentity",
+      "source_sha256": "ea42cf72eb72f95fd93199fc1d0b15afff1c65dd68482ebf768de6ef289b3d24",
+      "package_sha256": "ea42cf72eb72f95fd93199fc1d0b15afff1c65dd68482ebf768de6ef289b3d24"
+    },
+    {
+      "name": "NativeReadContext",
+      "source_sha256": "1506706cb9fae3ec874d67761b41dd398f67af83fe8c6140dac9e17c0c369dea",
+      "package_sha256": "1cd0474da639d5ba013407511791420fd36e65faa0e2766a74c49a31921738c0"
+    },
+    {
+      "name": "NodeKind",
+      "source_sha256": "d0d85fd73b1efd283269a2bb608de5d40c79eeb72a7d177a31fee66f3a51ae3f",
+      "package_sha256": "d0d85fd73b1efd283269a2bb608de5d40c79eeb72a7d177a31fee66f3a51ae3f"
+    },
+    {
+      "name": "NodeMatch",
+      "source_sha256": "a25940a216618c6f5cf741bfc469f181b369cc311600a9acb0fd01bab8ff0b20",
+      "package_sha256": "a25940a216618c6f5cf741bfc469f181b369cc311600a9acb0fd01bab8ff0b20"
+    },
+    {
+      "name": "NodeRuntime",
+      "source_sha256": "574028b681b50023e7210da1f93897eb3a6621dc0f5153bde31870fd155d5489",
+      "package_sha256": "bdcbc15371aa1d0df8d5656d91acfdb0585c5e92d305c400dcae65f34f4583a0"
+    },
+    {
+      "name": "PageServerReadAvailability",
+      "source_sha256": "6c003be54176b7f93f803bf2cc558b92f6c143a23098c20a3b130f53eef96d2a",
+      "package_sha256": "6c003be54176b7f93f803bf2cc558b92f6c143a23098c20a3b130f53eef96d2a"
+    },
+    {
+      "name": "PageServerReadStatistics",
+      "source_sha256": "95a9116c486f6f097a2703b9edea0a7fa736dc9409221c670ec9cd7b65fed30e",
+      "package_sha256": "fe79b716e76ba34a865704aafa8f063d53b52a7a3a1c33d2db119e63f6258019"
+    },
+    {
+      "name": "PageServerReadSummary",
+      "source_sha256": "00004f6b52084cba9c0dfd54ce3a6294bdf3c0f3058ea18fa303f856a21453f9",
+      "package_sha256": "896805fd4382adda9abeb226d98819399ff588633d37e5e78ef4a9f442493357"
+    },
+    {
+      "name": "PartitionTail",
+      "source_sha256": "0993a52e79c3af30bccd9e36a7b2f02f76524d5cefe6217c1c2b01918b220892",
+      "package_sha256": "0993a52e79c3af30bccd9e36a7b2f02f76524d5cefe6217c1c2b01918b220892"
+    },
+    {
+      "name": "Plan",
+      "source_sha256": "cf86312e76ada6e1950a93b90f4737be8c6a90b7b7d40f38c19a2056c4fa4e6e",
+      "package_sha256": "9be296c5050fae92ab253c21268a8dad39d1d3ca80e089a760ad0ba50edc00ff"
+    },
+    {
+      "name": "PlanAccessRows",
+      "source_sha256": "2fae7bbcfe0e0345891ee93aac1268d5152fa1080ba930a92d2cae1669e76239",
+      "package_sha256": "2fae7bbcfe0e0345891ee93aac1268d5152fa1080ba930a92d2cae1669e76239"
+    },
+    {
+      "name": "PlanAutomaticIndex",
+      "source_sha256": "03ba36c65a70f70b4d822ac651d41c3826704fc35edd386fa5a550ba38c3161a",
+      "package_sha256": "03ba36c65a70f70b4d822ac651d41c3826704fc35edd386fa5a550ba38c3161a"
+    },
+    {
+      "name": "PlanChange",
+      "source_sha256": "5a2924b60ae07d73d6915c1de9244d920cba3dfdef25a87f92e309fbf1099a0c",
+      "package_sha256": "7a7a20879368af1fc7ba160690ba644d94f1e2327d85e14621a56dde92ebdafa"
+    },
+    {
+      "name": "PlanChangedColumn",
+      "source_sha256": "1f827362112864a0fb44cc6fe604b9d028848ea34c968363503bf8f9188b628b",
+      "package_sha256": "1f827362112864a0fb44cc6fe604b9d028848ea34c968363503bf8f9188b628b"
+    },
+    {
+      "name": "PlanConversion",
+      "source_sha256": "2f834287c96376e9b0c4430cbdb5d399714640c470b8e93eda325d8c2e364f94",
+      "package_sha256": "b1a3dab46f58807a67c7923b04ade33e14ea8a45fe66025a208763681b673da3"
+    },
+    {
+      "name": "PlanConversionIssue",
+      "source_sha256": "f7678ef299505066c0e50c054d51a42b59e59bb49ee1bf0d3f18c5f0548b7606",
+      "package_sha256": "f7678ef299505066c0e50c054d51a42b59e59bb49ee1bf0d3f18c5f0548b7606"
+    },
+    {
+      "name": "PlanCurrentTypeSchemaView",
+      "source_sha256": "0b5d76408e0620c16290aefe289116e1138d60405f468b4712314dd9c5f700d3",
+      "package_sha256": "0b5d76408e0620c16290aefe289116e1138d60405f468b4712314dd9c5f700d3"
+    },
+    {
+      "name": "PlanDiff",
+      "source_sha256": "170630c85fa1134de717ce5da0656f66fcf9dc315efc1910beb8e17712e41c2c",
+      "package_sha256": "6b26c3e66b4cca52945c3fe2209a8f3a9c9537097ca4b8c4a7dc7c38641bcd61"
+    },
+    {
+      "name": "PlanExecutionMode",
+      "source_sha256": "6db198cb4699459e56884603e18c47ce211c43a3a6dc0209ae5057fed7ba4250",
+      "package_sha256": "6db198cb4699459e56884603e18c47ce211c43a3a6dc0209ae5057fed7ba4250"
+    },
+    {
+      "name": "PlanFacts",
+      "source_sha256": "c83d04d6be84bb68a8f733416df6977dd8e48d6c58488c234e60fffc0439dab3",
+      "package_sha256": "9ffb9ecdffced13c611fc68e0a12410af9a0cb91ef775047f0880ec3ad1ebf5e"
+    },
+    {
+      "name": "PlanHistory",
+      "source_sha256": "bb662a29cb658d299f911bc4bf8cef30f12fc38598acd267f5d4a5e9e8c432c4",
+      "package_sha256": "f8f707d2d43238855b89a60e7e093a62a22cbda2dc9519475460efaf0dd37855"
+    },
+    {
+      "name": "PlanHistoryKind",
+      "source_sha256": "e38ff258be06648821b38e09f9f3a4ecae83696ece5c96d6d38a761e245a5807",
+      "package_sha256": "e38ff258be06648821b38e09f9f3a4ecae83696ece5c96d6d38a761e245a5807"
+    },
+    {
+      "name": "PlanIndexColumns",
+      "source_sha256": "a79d32a9584f4ceabc4e75dd66ac4b1bfe6a42ed21204ff0ee2981461f5a7d3d",
+      "package_sha256": "a79d32a9584f4ceabc4e75dd66ac4b1bfe6a42ed21204ff0ee2981461f5a7d3d"
+    },
+    {
+      "name": "PlanIndexHint",
+      "source_sha256": "2a5d21415ca0d0c6f1c145ba40a06c81258180546573304cb6966126feb22d0e",
+      "package_sha256": "2a5d21415ca0d0c6f1c145ba40a06c81258180546573304cb6966126feb22d0e"
+    },
+    {
+      "name": "PlanInsight",
+      "source_sha256": "bb7c9ce0461682f5fdae593610d9c057cb0a98b71c65793bc4b156bb7b37e159",
+      "package_sha256": "b4d5883558ef1ba698657f9151a2b62bc1a9ef5e0641d60970bb068864336a88"
+    },
+    {
+      "name": "PlanInsightShare",
+      "source_sha256": "6fcd454dbf62ec5ae56501d9b1efedc205bacdf77783550d8e31d778f3c12a67",
+      "package_sha256": "6fcd454dbf62ec5ae56501d9b1efedc205bacdf77783550d8e31d778f3c12a67"
+    },
+    {
+      "name": "PlanInsights",
+      "source_sha256": "6daf2a83e6751cb9e476220a0d441a5c3cafc73b279c1d1c7db8ee08658b727c",
+      "package_sha256": "336a183b2d36320f6581431a1d1fe1eb2bc865d0d44a7a7cd2578f55ca64fb85"
+    },
+    {
+      "name": "PlanKind",
+      "source_sha256": "67d21118028c9f5026036a988a90ff6d58cf06b02bef68c03b88997cad30ab20",
+      "package_sha256": "67d21118028c9f5026036a988a90ff6d58cf06b02bef68c03b88997cad30ab20"
+    },
+    {
+      "name": "PlanMeasurementRef",
+      "source_sha256": "4a6f5fe419b0a1e9a8eeee64a0c7eefe0e876d4c46292ac567b8b9abf681ecaf",
+      "package_sha256": "4a6f5fe419b0a1e9a8eeee64a0c7eefe0e876d4c46292ac567b8b9abf681ecaf"
+    },
+    {
+      "name": "PlanMemoryGrantFeedback",
+      "source_sha256": "5e325d96784a624d4c3e0a7b6802ae65357a7834d0a8e2d15bcfa650dd45e682",
+      "package_sha256": "c3c4779712d285ed81a3b4962cd96dffacde353628aab70d2ab4736d354331c8"
+    },
+    {
+      "name": "PlanMemoryGrantFeedbackIssue",
+      "source_sha256": "ca6e089d939fe67fcf175bc57584fafcc248d2d5dd7d5121da878c4e2bd68ccc",
+      "package_sha256": "ca6e089d939fe67fcf175bc57584fafcc248d2d5dd7d5121da878c4e2bd68ccc"
+    },
+    {
+      "name": "PlanMemoryGrantFeedbackState",
+      "source_sha256": "746ca9635b81fa0c1cecfb36ab4587bea6434f9f6da3fdeb0847ae4c2d42e81f",
+      "package_sha256": "746ca9635b81fa0c1cecfb36ab4587bea6434f9f6da3fdeb0847ae4c2d42e81f"
+    },
+    {
+      "name": "PlanNode",
+      "source_sha256": "6d96350a0e2fc835673e0755f177dff4dd3221d1588572014222364c559e3a36",
+      "package_sha256": "7724f534fdd88894dd69cfc8e813c96b21075041854d9aee4256743de88a679d"
+    },
+    {
+      "name": "PlanNodeFacts",
+      "source_sha256": "399ea398e8d550c8f7541bdcc0305ba0ef3324a8c38b288ff7960fd29d6ace55",
+      "package_sha256": "bbe878332e8191565a46f72b8d80c9fa47698f1a07faee597984d36f0df2ba78"
+    },
+    {
+      "name": "PlanOperatorView",
+      "source_sha256": "d0ddcbd2c581f21f07bede152f635ec2d3415bd0a3b4c6d54e809e8581a076f9",
+      "package_sha256": "577b1190d5e6b22f896b0785afa8779afe82b1830898995add5dde27ccaa74dd"
+    },
+    {
+      "name": "PlanPageServerIo",
+      "source_sha256": "c781a1dbf74cf4e5f2e02536ee76d952032d2b83f133e9ce76b9f2ebfa1de0de",
+      "package_sha256": "a3d49becdb5fd0e6665da908f9467cfe0bf8f7e3f38e4a137c18e8cc3c3db04d"
+    },
+    {
+      "name": "PlanPageServerIoIssue",
+      "source_sha256": "3ad47c805a57e02554aacfae23ec9c293560e2b1a2690842a0b4e47bb205119d",
+      "package_sha256": "09713a960dd47bc489450d1558dc3b1ed92cc0d46af3cef1ae16763b09380ebe"
+    },
+    {
+      "name": "PlanPageServerIoView",
+      "source_sha256": "40abd4f53d309a55a5d9754a8cc7315b0a06230b461da93bdccfd4efed322b31",
+      "package_sha256": "4d9d44243bb03bf6bc4f8197991b361cb857d6237274943ac68ba749af798ac5"
+    },
+    {
+      "name": "PlanPageServerMetric",
+      "source_sha256": "a6b5a4163164c7e1f19acd3aacf8769c7fc6037402fe3afb336f722b8872c4d3",
+      "package_sha256": "a6b5a4163164c7e1f19acd3aacf8769c7fc6037402fe3afb336f722b8872c4d3"
+    },
+    {
+      "name": "PlanParameter",
+      "source_sha256": "35b8f8a16159e808a6030c9eb83ff47b3ea2f4d85805723d6d7c30206781f2e0",
+      "package_sha256": "e277212a6a2d4c6078e2dd990da6ec7be915444950c2b8c4143e9690fd9c7b87"
+    },
+    {
+      "name": "PlanParameterComparison",
+      "source_sha256": "11ac0763380612b88594e91619a8446e1c3565f8e2665b356d95feef4c839a53",
+      "package_sha256": "11ac0763380612b88594e91619a8446e1c3565f8e2665b356d95feef4c839a53"
+    },
+    {
+      "name": "PlanParameterContext",
+      "source_sha256": "323094b8618f273bab569146584e959952faf8e812f14a7550494691eb6a195c",
+      "package_sha256": "b8f8abd2a3e51d2281b241aca30365f27c4d1d4f8eafec8450461612b9fc8fce"
+    },
+    {
+      "name": "PlanParameterIssue",
+      "source_sha256": "1377a6bbd7517e0875ee25ddc706da778508e83a181665ba423b459113b276d3",
+      "package_sha256": "1377a6bbd7517e0875ee25ddc706da778508e83a181665ba423b459113b276d3"
+    },
+    {
+      "name": "PlanParameterUse",
+      "source_sha256": "c6516ff5c768767891c8538750285ca198d03631ef3656279f00f3255c3845cd",
+      "package_sha256": "4f785ea83063686b0e96b558ca72350ed2d6e0bc6dbae6be4bb8d3e497879ce2"
+    },
+    {
+      "name": "PlanParameterUseKind",
+      "source_sha256": "d4964fee518b8783d35f07007700e593601dcce59bf347751a060738b74a7c02",
+      "package_sha256": "d4964fee518b8783d35f07007700e593601dcce59bf347751a060738b74a7c02"
+    },
+    {
+      "name": "PlanParameterValueState",
+      "source_sha256": "fd55ef264f3e483d3021546e08d1112cc1c1f66833c5c4e39f9f2296fc901edc",
+      "package_sha256": "fd55ef264f3e483d3021546e08d1112cc1c1f66833c5c4e39f9f2296fc901edc"
+    },
+    {
+      "name": "PlanParentRelationship",
+      "source_sha256": "c015613d221507eae6b1e4e2058b2c8a929a807dd64b3124755bab0f41a127ff",
+      "package_sha256": "c015613d221507eae6b1e4e2058b2c8a929a807dd64b3124755bab0f41a127ff"
+    },
+    {
+      "name": "PlanRegion",
+      "source_sha256": "b5063f37bdcad3c002a6d3a6bb9698ec42a04e5cc8869e74a75b6ef5ab59c8f5",
+      "package_sha256": "b5063f37bdcad3c002a6d3a6bb9698ec42a04e5cc8869e74a75b6ef5ab59c8f5"
+    },
+    {
+      "name": "PlanSampleSource",
+      "source_sha256": "d9bf3009a7da5455685b9cb7cc55b7b3f915ae0baf775cb3f681b32500f5488c",
+      "package_sha256": "d9bf3009a7da5455685b9cb7cc55b7b3f915ae0baf775cb3f681b32500f5488c"
+    },
+    {
+      "name": "PlanScanCompletion",
+      "source_sha256": "3712ffdfc99c2b227066708cb91a886d8ed351cce2869f73e3c5ebda481d02e1",
+      "package_sha256": "52a5bfb9ab3e71e6bf537da5903291a41e61ddffbcd6b7c3e4d1f083381cbfa2"
+    },
+    {
+      "name": "PlanScanThread",
+      "source_sha256": "2386ae035141beef4dd2c1de8ae88c5ebf2603da10ecbe2e7cf094c1878d52a0",
+      "package_sha256": "2386ae035141beef4dd2c1de8ae88c5ebf2603da10ecbe2e7cf094c1878d52a0"
+    },
+    {
+      "name": "PlanTemporaryTableUse",
+      "source_sha256": "bdaccdc3377a513b91993a624155aff3e3dff7adef921088b5889a5054ab5244",
+      "package_sha256": "bdaccdc3377a513b91993a624155aff3e3dff7adef921088b5889a5054ab5244"
+    },
+    {
+      "name": "PlanVariant",
+      "source_sha256": "fa3a971e659a4cb7f13983f77c4c55c8f2a9e68053b891a1d61a3ce904be24ee",
+      "package_sha256": "340975a7370c6fb2b86d930801b0fab90da8aff7ee6bd1cd66344ff40a5c7449"
+    },
+    {
+      "name": "PlanView",
+      "source_sha256": "b9f23601035cbbabf75854736ae962f233c4245bdc1b8f2da1ef88fc623191a4",
+      "package_sha256": "1b767ddcb5823846bdcd17bf7703577fbaf3a9117deee2881da5fd469267037e"
+    },
+    {
+      "name": "PlanWarning",
+      "source_sha256": "b626100dd8e17000f2fcf5167850ac06c0205964a36e61af44254770125e0de7",
+      "package_sha256": "b626100dd8e17000f2fcf5167850ac06c0205964a36e61af44254770125e0de7"
+    },
+    {
+      "name": "PlanningStep",
+      "source_sha256": "ff661ec3d31a37dfee13e0262b6da6f306b57113a25f627cec7b8f2134af8b94",
+      "package_sha256": "ff661ec3d31a37dfee13e0262b6da6f306b57113a25f627cec7b8f2134af8b94"
+    },
+    {
+      "name": "ProductFacts",
+      "source_sha256": "f2ec0ceebde5272f19373863218c30536c530096973eee182f0f808c7271ea85",
+      "package_sha256": "0fccd23f27a490c239c21954ca64f32015a7ec541e98dbb83155d953c0e96c37"
+    },
+    {
+      "name": "QueryCosts",
+      "source_sha256": "0a8e1f9184d41f09b02a6190032dc95e3cd3d9acbb5d917ed681e7fbcd5917ac",
+      "package_sha256": "4d50bb5e6b0e93719c93e53ff0026e49019e1e0817f7c45c7bff3c50fa0e7520"
+    },
+    {
+      "name": "QueryStat",
+      "source_sha256": "307aa158cef5a9e843250319f356140f8ec4918b19932b7df45eca7d18535896",
+      "package_sha256": "8c4cdb52be7e452180b9ffd6e6006c32911b4f3b3822d657717fcd260f94c427"
+    },
+    {
+      "name": "QueryTrend",
+      "source_sha256": "3da35da1758e56150f45ed691cfd7a6fe89bf4c7e42305de6aef156f3ed62c5a",
+      "package_sha256": "3da35da1758e56150f45ed691cfd7a6fe89bf4c7e42305de6aef156f3ed62c5a"
+    },
+    {
+      "name": "QueryVariantFamily",
+      "source_sha256": "a18a2f3921ba1b88fc822c98e637ff8bc38da076b7fdcd79f2f63f84eca6124c",
+      "package_sha256": "a06f6a024cc72c771e9a65be22d1d3d9c7533ced7a33d246b0fdb0315b181f59"
+    },
+    {
+      "name": "QueryWaitCoverage",
+      "source_sha256": "64d37a139b926aaffe0a7b39c3e05b59a242ead9347910d797f374f2f942cd26",
+      "package_sha256": "784343ee9810b196f65a35c1b6b78a3f3fcedcb214706e5a83536049c4bcbb18"
+    },
+    {
+      "name": "ReadUnit",
+      "source_sha256": "662b23ac6bd9066fe4e076eaad3d4c4bb24f5d0b9714f585bf8dcbdfc88a866b",
+      "package_sha256": "662b23ac6bd9066fe4e076eaad3d4c4bb24f5d0b9714f585bf8dcbdfc88a866b"
+    },
+    {
+      "name": "Refusal",
+      "source_sha256": "38bee66d4487eafcb0d0ee487522bfa9f8a70f40f33989bda871f634e3bc18d2",
+      "package_sha256": "38bee66d4487eafcb0d0ee487522bfa9f8a70f40f33989bda871f634e3bc18d2"
+    },
+    {
+      "name": "RelationalInput",
+      "source_sha256": "2a789823f04c9d739aed6e3a1c39136f72e5ea2630b3b6c9215b22dbc5d669ce",
+      "package_sha256": "bdd240e27135b4a93c9a4651d62970ee6dc4bb8a485f65bda6fbb42d37d55e08"
+    },
+    {
+      "name": "RelationalInputKind",
+      "source_sha256": "5a92fee0905bafb4efd898b4799dd60a09c93837fe784e92528a2dcbbab4bf4a",
+      "package_sha256": "5a92fee0905bafb4efd898b4799dd60a09c93837fe784e92528a2dcbbab4bf4a"
+    },
+    {
+      "name": "RelationalInputProvenance",
+      "source_sha256": "537c35ad79a53e12189e4cff935d36ff31c136943734c8efbdcf42fc242b844e",
+      "package_sha256": "537c35ad79a53e12189e4cff935d36ff31c136943734c8efbdcf42fc242b844e"
+    },
+    {
+      "name": "RequestEvidence",
+      "source_sha256": "2ba2bc68aa5e02317e892fcfd73db6725175e513657dc60a37238f3a5bf535b2",
+      "package_sha256": "2ba2bc68aa5e02317e892fcfd73db6725175e513657dc60a37238f3a5bf535b2"
+    },
+    {
+      "name": "RetainedPlanProvenance",
+      "source_sha256": "2a78417071a2f603ddcc55dbec0128086c8dbdea40b5f2b07af9f4246b0849d9",
+      "package_sha256": "86695e6b5629367cb41ed77f466d6524fda6792f852aa2ebd11d84c228a78422"
+    },
+    {
+      "name": "RuntimeDistribution",
+      "source_sha256": "02970f1a529342179074adbc6c7d044a2e6c569fc17cf2c0f094b93729784b40",
+      "package_sha256": "1567496c22df7413d7855c0032b36fc3848ef6160b7f4480d5483d96e7445de3"
+    },
+    {
+      "name": "RuntimeDistributionIssue",
+      "source_sha256": "668dc266450a4cb067cb54ce405743115c97220238b030843b8752475d173552",
+      "package_sha256": "668dc266450a4cb067cb54ce405743115c97220238b030843b8752475d173552"
+    },
+    {
+      "name": "RuntimeDistributionOrigin",
+      "source_sha256": "2fc10f2d70aeecb7bfd52ef2bfea320ea58b8023be7f0e4d83078977ad818afd",
+      "package_sha256": "2fc10f2d70aeecb7bfd52ef2bfea320ea58b8023be7f0e4d83078977ad818afd"
+    },
+    {
+      "name": "RuntimeDuration",
+      "source_sha256": "fbc479fbf9985e15719d21c2e486728adba8fde5c484e276959d1a4bcd510bf9",
+      "package_sha256": "fbc479fbf9985e15719d21c2e486728adba8fde5c484e276959d1a4bcd510bf9"
+    },
+    {
+      "name": "RuntimeHistogramBucket",
+      "source_sha256": "7146270a083da5819ec495d32ade9a41d7afa555ff6f710661e037d2b1433444",
+      "package_sha256": "a57953e938d49c075bba6e219c2db2fda38f437d22e9e6b3def187d64472e0c5"
+    },
+    {
+      "name": "RuntimeQuantile",
+      "source_sha256": "166984a8bfb6220d0071f3bab9f8ec1b0162b78557974e667d3938d56b4437a3",
+      "package_sha256": "47209fa65b3514451a4447b2c64660bbe998f8621fb1bb3806009a85364b78f9"
+    },
+    {
+      "name": "Scenario",
+      "source_sha256": "02c0ef4cc366cb4b8c47004ffc472ba53c957441e409e9544e857455c8351ad1",
+      "package_sha256": "56f6a98240b48682ebfa95d712fbeaefb6d41468e20b0b06b8051d9b6ca52e23"
+    },
+    {
+      "name": "ScenarioKind",
+      "source_sha256": "b25bcd17e75779a86a69c032ce321ba5203184d634605717710d51d8f34fe294",
+      "package_sha256": "b25bcd17e75779a86a69c032ce321ba5203184d634605717710d51d8f34fe294"
+    },
+    {
+      "name": "SessionAction",
+      "source_sha256": "3b69b3fbadc03940af51949d68fbd389cbdbb49cb43d3a5f7368fe981ffa130b",
+      "package_sha256": "3b69b3fbadc03940af51949d68fbd389cbdbb49cb43d3a5f7368fe981ffa130b"
+    },
+    {
+      "name": "SessionIdFormat",
+      "source_sha256": "096a3d6cdd37debf4e16492f2f564fea7663a8918c0498ba83afdaacce0ccd45",
+      "package_sha256": "096a3d6cdd37debf4e16492f2f564fea7663a8918c0498ba83afdaacce0ccd45"
+    },
+    {
+      "name": "Severity",
+      "source_sha256": "00290e2eba5cf6a04604ba813a588be5f7c9f112681be1a1d0e71ac284a9eb93",
+      "package_sha256": "00290e2eba5cf6a04604ba813a588be5f7c9f112681be1a1d0e71ac284a9eb93"
+    },
+    {
+      "name": "SharedResourceIdentity",
+      "source_sha256": "94f004863ced7a64c9a1bf20858a749c8188f6ac110d1bd740c2673d6ce34077",
+      "package_sha256": "948a552544c5ed35e484c533128b232ab35efcf60c9f7e16cc0b22884fd725c6"
+    },
+    {
+      "name": "SharedResourceKind",
+      "source_sha256": "b8b837351bb37bcde99c09fd525281b1718ec444e2e06720322f929950a515e2",
+      "package_sha256": "b8b837351bb37bcde99c09fd525281b1718ec444e2e06720322f929950a515e2"
+    },
+    {
+      "name": "SourcePartition",
+      "source_sha256": "20f519236228ee9c0d2aef6d2d08bcb011d583083b4f632b2b1ad2eecfa0df06",
+      "package_sha256": "6d6b89c0c5ce1705ce378193e26c2bcd290ff44065f07d0d8ede245af6c56eb2"
+    },
+    {
+      "name": "Spread",
+      "source_sha256": "087b15b606a27ee5a048465285fae7ad0f61a94cb84cbdf0840329e8a3c400f4",
+      "package_sha256": "0917e59bfd460e03334abc67126faf9db2cbc7dd0b75c98c50d6594a96a36edf"
+    },
+    {
+      "name": "SqlSyntax",
+      "source_sha256": "a950a055ef15a20a55e8558270f58fb03df04c8876c5e0f61c84fed1886e47d1",
+      "package_sha256": "a950a055ef15a20a55e8558270f58fb03df04c8876c5e0f61c84fed1886e47d1"
+    },
+    {
+      "name": "StatementMetrics",
+      "source_sha256": "5117b4a18dee2232180d15af810b087843fa57a9c717682a6afe030b8b82ad39",
+      "package_sha256": "498230a1c55f8650715d221e7b5f494f9e58f74bffdd2f39c54e1a58c0dfb543"
+    },
+    {
+      "name": "StatementOrigin",
+      "source_sha256": "295c119d6d49dbfaec175993c3bd5b26611ad3e809568cb77457c9e6a791fe6c",
+      "package_sha256": "295c119d6d49dbfaec175993c3bd5b26611ad3e809568cb77457c9e6a791fe6c"
+    },
+    {
+      "name": "StatementTemporaryWork",
+      "source_sha256": "59ca8e348d74f0cfe799af5a619092d6790ef9cee85f474f71342681b14fb898",
+      "package_sha256": "59ca8e348d74f0cfe799af5a619092d6790ef9cee85f474f71342681b14fb898"
+    },
+    {
+      "name": "StatisticsFreshness",
+      "source_sha256": "df2fc7b010a66419aa94e71029c86c7e0326dfa94088bd39fd251a1efa3e5c2e",
+      "package_sha256": "df2fc7b010a66419aa94e71029c86c7e0326dfa94088bd39fd251a1efa3e5c2e"
+    },
+    {
+      "name": "TriggerTiming",
+      "source_sha256": "288d1907fa0090e489cc4495414be70f4dcc717d63ae0b23c702277291fbb7c6",
+      "package_sha256": "288d1907fa0090e489cc4495414be70f4dcc717d63ae0b23c702277291fbb7c6"
+    },
+    {
+      "name": "Unit",
+      "source_sha256": "65700702b7891a0459d7d71a40c37310480f29be8fafb2058016d8fd51f2aa8a",
+      "package_sha256": "65700702b7891a0459d7d71a40c37310480f29be8fafb2058016d8fd51f2aa8a"
+    },
+    {
+      "name": "WaitClass",
+      "source_sha256": "bc1f277410e60c59854ea244eac819630ffc4e6f690cf3de5d2d5fe44d6ab486",
+      "package_sha256": "bc1f277410e60c59854ea244eac819630ffc4e6f690cf3de5d2d5fe44d6ab486"
+    },
+    {
+      "name": "WaitMechanism",
+      "source_sha256": "d6565bc92d2ab91a15766d28ec350d5f8c11ba101bae5d334ed48fcab184b90e",
+      "package_sha256": "2ddd0cc875e98207811c211faa2e87e4aeaaff92217a4266a35ca64d0c0c351f"
+    },
+    {
+      "name": "WaitSampling",
+      "source_sha256": "1c14f180b18c617231737bda9ca2bcd196415fc1c039cabdb4b8245561d1d30b",
+      "package_sha256": "1c14f180b18c617231737bda9ca2bcd196415fc1c039cabdb4b8245561d1d30b"
+    },
+    {
+      "name": "WaitStat",
+      "source_sha256": "56ea912ebee09ebf67c88025638e6cb232401af52e456540e497947a0881ed4a",
+      "package_sha256": "ec83c359ba97d2b1663cf8461a5d8a869604e7656c531fe22afa70b1745a52bd"
+    },
+    {
+      "name": "WorkerSkew",
+      "source_sha256": "c671dd871e76b770310d92c0d706c0a233ea32da99cfee31ccb8bf18ad0f5078",
+      "package_sha256": "c671dd871e76b770310d92c0d706c0a233ea32da99cfee31ccb8bf18ad0f5078"
+    },
+    {
+      "name": "WriteLog",
+      "source_sha256": "bcd69238414755a7104dadb5ac4a15671456eff85b693d53781700f010e206b8",
+      "package_sha256": "bcd69238414755a7104dadb5ac4a15671456eff85b693d53781700f010e206b8"
+    },
+    {
+      "name": "WriteRows",
+      "source_sha256": "f488a13377c824a0670b4fdc3431036e22ef16d222e7f97d8e0adc69c859754d",
+      "package_sha256": "f488a13377c824a0670b4fdc3431036e22ef16d222e7f97d8e0adc69c859754d"
+    }
+  ],
+  "compression": {
+    "gzip_level": 9,
+    "brotli_quality": 11
+  },
+  "artifacts": {
+    "ActualSummary.js": {
+      "bytes": 7289,
+      "gzip_bytes": 2092,
+      "brotli_bytes": 1847,
+      "sha256": "159709c252cd626ba92505258d31410758449fc4849326a90a0159fba3cc0b4a"
+    },
+    "DeadlockGraph.js": {
+      "bytes": 9689,
+      "gzip_bytes": 2965,
+      "brotli_bytes": 2639,
+      "sha256": "cfe41564bf1161488c9544a08962c50d3f9820bfb4831f151537765a656f5a7c"
+    },
+    "DeadlockViewer.js": {
+      "bytes": 5250,
+      "gzip_bytes": 1759,
+      "brotli_bytes": 1539,
+      "sha256": "65606348a5b0ba49cf69164be5dfecd5758c7df3d1e41c859a877ada65923b82"
+    },
+    "DocdbWork.js": {
+      "bytes": 2649,
+      "gzip_bytes": 861,
+      "brotli_bytes": 746,
+      "sha256": "1e751f56abf9f954679b00e64cd873a4a4f0e0a6b06609214446b29f7ad7ad7f"
+    },
+    "NodeDetails.js": {
+      "bytes": 17978,
+      "gzip_bytes": 4197,
+      "brotli_bytes": 3739,
+      "sha256": "33cdd1f3c33748c4b554185ca96d2d0fc393171ebb4981e6421b68d151100872"
+    },
+    "OpIcon.js": {
+      "bytes": 2006,
+      "gzip_bytes": 770,
+      "brotli_bytes": 657,
+      "sha256": "2c80c1377cec5988293acf921e87722cfb94f301e91177ca1bd9b9fa92b7912c"
+    },
+    "PlanAssessmentNotes.js": {
+      "bytes": 525,
+      "gzip_bytes": 299,
+      "brotli_bytes": 255,
+      "sha256": "8a61bf92ca9cfd4df1d26deafbe43ca566c998a7edbdfc1cda7501bbc89233e7"
+    },
+    "PlanCanvas.js": {
+      "bytes": 958,
+      "gzip_bytes": 470,
+      "brotli_bytes": 386,
+      "sha256": "d2ddac50adc35dae8238e8f306b0ed5e903c522b5de50e7c5230f6a66aa26202"
+    },
+    "PlanDiagram.js": {
+      "bytes": 35914,
+      "gzip_bytes": 9571,
+      "brotli_bytes": 8541,
+      "sha256": "75afa10691a6ec75b72be47b341a15b87086556464a1245b9fcce7dd15d384f3"
+    },
+    "PlanDiffViewer.js": {
+      "bytes": 23311,
+      "gzip_bytes": 5650,
+      "brotli_bytes": 4999,
+      "sha256": "0501ebea2e554d223b1fd388aa2ffb4de3a92c2d43519dfe9d5d436bf080fc0f"
+    },
+    "PlanInsights.js": {
+      "bytes": 8846,
+      "gzip_bytes": 2383,
+      "brotli_bytes": 2118,
+      "sha256": "8a9be24717cd2fe11dcd15a70ccb90251a4970835de35190912c3ca982aee786"
+    },
+    "PlanObjects.js": {
+      "bytes": 9561,
+      "gzip_bytes": 2327,
+      "brotli_bytes": 2087,
+      "sha256": "237d62d1a1076560f0a82a49292c40cca3b043187fd040b85a4b775eea370082"
+    },
+    "PlanOperations.js": {
+      "bytes": 10317,
+      "gzip_bytes": 2853,
+      "brotli_bytes": 2549,
+      "sha256": "f406d3bec76a60097bddc58805b29e472c37b41e17019130a44493ce921d185c"
+    },
+    "PlanRaw.js": {
+      "bytes": 2126,
+      "gzip_bytes": 752,
+      "brotli_bytes": 681,
+      "sha256": "cdee9bf08c8f788f300cb7b9b9552d6b9e985f32df4bd751ae23d5be4fb0bc03"
+    },
+    "PlanSurface.js": {
+      "bytes": 7327,
+      "gzip_bytes": 1953,
+      "brotli_bytes": 1712,
+      "sha256": "6d61fcc80fd3337f8d634d11f6eefdbf7091c2286ace4cc078a6df94624e1f1a"
+    },
+    "PlanTypeSchema.js": {
+      "bytes": 7847,
+      "gzip_bytes": 1921,
+      "brotli_bytes": 1680,
+      "sha256": "756b631695ceefc37e429dd4f010eefd36fb11157ba9f5e15bc1274f3067cd14"
+    },
+    "PlanView.js": {
+      "bytes": 12964,
+      "gzip_bytes": 3610,
+      "brotli_bytes": 3230,
+      "sha256": "79e80742c920cd476883a991f3c079324da45f9ff5e51b9a6f58804344624db3"
+    },
+    "PlanViewer.js": {
+      "bytes": 1871,
+      "gzip_bytes": 804,
+      "brotli_bytes": 692,
+      "sha256": "70f9ad291b83c7be9111e7fee1caab62647dec3da61fccc1cd96eecb49e307be"
+    },
+    "Prose.js": {
+      "bytes": 405,
+      "gzip_bytes": 284,
+      "brotli_bytes": 221,
+      "sha256": "a34dd5f9193ac37cc85ad75319abe368403a551339d20012998afe4018196f38"
+    },
+    "Sql.js": {
+      "bytes": 497,
+      "gzip_bytes": 292,
+      "brotli_bytes": 263,
+      "sha256": "7bc35279db095a55830a0a0f917917442f024fe451907a8fce64f438584d464d"
+    },
+    "defaults.js": {
+      "bytes": 38147,
+      "gzip_bytes": 8525,
+      "brotli_bytes": 7276,
+      "sha256": "0b1b8d8f58b9e5fb779a7f6203d85baf8a03ee3571a517769c1ba9a77f7d8aa2"
+    },
+    "host.js": {
+      "bytes": 24174,
+      "gzip_bytes": 7248,
+      "brotli_bytes": 6389,
+      "sha256": "a8389e7ba5d505af7e0dde74d3836132df4cb19384b2b1ea388e7facd75f6141"
+    },
+    "index.js": {
+      "bytes": 1225,
+      "gzip_bytes": 413,
+      "brotli_bytes": 349,
+      "sha256": "dd328e831ec1f8326be582cdfe1922b8e34016f9e09fc6e140393cd557115622"
+    },
+    "styles.css": {
+      "bytes": 65332,
+      "gzip_bytes": 10472,
+      "brotli_bytes": 9110,
+      "sha256": "eadedef8ecffa91a69ce1c7c2dd01176bd675954e1ced1aebf146d26b4503738"
+    },
+    "types.js": {
+      "bytes": 11,
+      "gzip_bytes": 31,
+      "brotli_bytes": 15,
+      "sha256": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881"
+    }
+  }
+}
