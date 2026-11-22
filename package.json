@@ -1,0 +1,59 @@
+{
+  "name": "@culpritsql/plan-viewer",
+  "version": "0.5.6",
+  "description": "Interactive React execution plan diagram, structural plan diff, and deadlock cycle graph components for SQL Server, PostgreSQL, MySQL, MariaDB, YugabyteDB, and SQLite.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": [
+    "*.css",
+    "./pkg/styles.css"
+  ],
+  "files": [
+    "pkg"
+  ],
+  "exports": {
+    ".": {
+      "types": "./pkg/index.d.ts",
+      "import": "./pkg/index.js"
+    },
+    "./styles.css": "./pkg/styles.css"
+  },
+  "dependencies": {
+    "lucide-react": "1.68.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/culpritsql/culprit-plan-viewer.git"
+  },
+  "homepage": "https://culpritsql.com",
+  "bugs": {
+    "url": "https://github.com/culpritsql/culprit-plan-viewer/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "keywords": [
+    "react",
+    "sql",
+    "execution-plan",
+    "query-plan",
+    "explain",
+    "explain-analyze",
+    "showplan",
+    "sqlplan",
+    "deadlock",
+    "plan-viewer",
+    "postgres",
+    "postgresql",
+    "mssql",
+    "sql-server",
+    "mysql",
+    "mariadb",
+    "yugabytedb",
+    "sqlite"
+  ]
+}
