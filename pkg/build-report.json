@@ -813,10 +813,10 @@
       "sha256": "75afa10691a6ec75b72be47b341a15b87086556464a1245b9fcce7dd15d384f3"
     },
     "PlanDiffViewer.js": {
-      "bytes": 23311,
-      "gzip_bytes": 5650,
-      "brotli_bytes": 4999,
-      "sha256": "0501ebea2e554d223b1fd388aa2ffb4de3a92c2d43519dfe9d5d436bf080fc0f"
+      "bytes": 24004,
+      "gzip_bytes": 5725,
+      "brotli_bytes": 5065,
+      "sha256": "beeb10800e59e948bb8bd34d56592a8848788134a9a7660e6e2de7cca5c752a0"
     },
     "PlanInsights.js": {
       "bytes": 8846,
@@ -843,10 +843,10 @@
       "sha256": "cdee9bf08c8f788f300cb7b9b9552d6b9e985f32df4bd751ae23d5be4fb0bc03"
     },
     "PlanSurface.js": {
-      "bytes": 7327,
-      "gzip_bytes": 1953,
-      "brotli_bytes": 1712,
-      "sha256": "6d61fcc80fd3337f8d634d11f6eefdbf7091c2286ace4cc078a6df94624e1f1a"
+      "bytes": 7499,
+      "gzip_bytes": 2003,
+      "brotli_bytes": 1765,
+      "sha256": "11819463093bef50073ed7facdcce187fd2ef75039c4c92937dbeadfd6e02562"
     },
     "PlanTypeSchema.js": {
       "bytes": 7847,
@@ -855,16 +855,16 @@
       "sha256": "756b631695ceefc37e429dd4f010eefd36fb11157ba9f5e15bc1274f3067cd14"
     },
     "PlanView.js": {
-      "bytes": 12964,
-      "gzip_bytes": 3610,
-      "brotli_bytes": 3230,
-      "sha256": "79e80742c920cd476883a991f3c079324da45f9ff5e51b9a6f58804344624db3"
+      "bytes": 13103,
+      "gzip_bytes": 3641,
+      "brotli_bytes": 3255,
+      "sha256": "ef27bd3bdffaf8ef49daec10fc23263af901f76913301e3cdf5e6885e60c9392"
     },
     "PlanViewer.js": {
-      "bytes": 1871,
-      "gzip_bytes": 804,
-      "brotli_bytes": 692,
-      "sha256": "70f9ad291b83c7be9111e7fee1caab62647dec3da61fccc1cd96eecb49e307be"
+      "bytes": 1905,
+      "gzip_bytes": 797,
+      "brotli_bytes": 679,
+      "sha256": "bf133eebfb3ff5b634d5db3b97335d08b9956ee07348fd9d77b49b9f8355dc05"
     },
     "Prose.js": {
       "bytes": 405,
@@ -897,10 +897,10 @@
       "sha256": "dd328e831ec1f8326be582cdfe1922b8e34016f9e09fc6e140393cd557115622"
     },
     "styles.css": {
-      "bytes": 65332,
-      "gzip_bytes": 10472,
-      "brotli_bytes": 9110,
-      "sha256": "eadedef8ecffa91a69ce1c7c2dd01176bd675954e1ced1aebf146d26b4503738"
+      "bytes": 68954,
+      "gzip_bytes": 11116,
+      "brotli_bytes": 9622,
+      "sha256": "d4024466037b864c2c0bc4d5b7f6b81a5f2131a0f16175bce05b9faf7908fcf0"
     },
     "types.js": {
       "bytes": 11,

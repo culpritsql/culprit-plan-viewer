@@ -12,10 +12,11 @@ export declare function LookToggle({ look, onChange, hasRaw, }: {
  * A plan with everything Culprit knows about it: the insights first (what's wrong, how to fix it), then the plan in the
  * chosen view. Picking an insight selects its operator in whichever view is showing, and back.
  */
-export declare function PlanSurface({ plan, query, focus, look, badge, }: {
+export declare function PlanSurface({ plan, query, focus, look, onLookChange, badge, }: {
     plan: Plan;
     query?: QueryStat | null;
     focus?: number | null;
     look: PlanLook;
+    onLookChange?: (look: PlanLook) => void;
     badge?: string;
 }): import("react").JSX.Element;
