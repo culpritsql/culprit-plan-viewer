@@ -8,7 +8,7 @@
   "embedded_catalog": {
     "language": "en",
     "message_count": 432,
-    "source_en_sha256": "6001e5746f0ee4f3fdd3f41d5aa1ac02f230f5d626635094b5130ae60ef1c0f8",
+    "source_en_sha256": "808d69f8b87b5f3f74fbf5074f91e21462bad19438d1bb58a785c1b490813639",
     "engines_sha256": "248786d554da4879147ab3aabb6ca4cbeb33f113cc1554afd5a43a5371aa7844"
   },
   "models": [
@@ -44,8 +44,8 @@
     },
     {
       "name": "CollectionTarget",
-      "source_sha256": "6455ac83e7cdf121ab4736b99db8a4cecc2f90c8d02a85357c5562b763e6fc74",
-      "package_sha256": "7cd0d5997416f67361bffa0ac52d0efdbeb9f02bbbeaff01acd809e907e676ab"
+      "source_sha256": "3eb165bc2b0022238c79bf7c1699f455fddd6f776b28b0ee880583ea952cbc5e",
+      "package_sha256": "3658c40df8f47f9fed380dc36a1aae77e89e9d2c9138f09d4a4e750e0f549c58"
     },
     {
       "name": "CompilationMemory",
@@ -56,6 +56,11 @@
       "name": "CompileHistory",
       "source_sha256": "1a9e71f35fe9bf884c70ee89e3ea0328a00bdf23d6dda30f600e59289904a918",
       "package_sha256": "83bb4a6a7199abe4b95f4ef5b733e4aa3349437b71421db2c8deb488fc83062f"
+    },
+    {
+      "name": "ConfiguredConnectionIdentity",
+      "source_sha256": "9f80714258513488cbe64c2b89d7a208fe039024bff3d356330a952b31a8d83a",
+      "package_sha256": "3a2b6e58f0f7753c1350abd7ad9cf2d1e9653f2e8d0ff5af7de0c9824c1eb53f"
     },
     {
       "name": "Connect",
