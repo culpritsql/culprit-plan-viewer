@@ -1,6 +1,6 @@
 {
   "name": "@culpritsql/plan-viewer",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "description": "Interactive React execution plan diagram, structural plan diff, and deadlock cycle graph components for SQL Server, PostgreSQL, MySQL, MariaDB, YugabyteDB, and SQLite.",
   "license": "MIT",
   "type": "module",

@@ -897,10 +897,10 @@
       "sha256": "dd328e831ec1f8326be582cdfe1922b8e34016f9e09fc6e140393cd557115622"
     },
     "styles.css": {
-      "bytes": 68954,
-      "gzip_bytes": 11116,
-      "brotli_bytes": 9622,
-      "sha256": "d4024466037b864c2c0bc4d5b7f6b81a5f2131a0f16175bce05b9faf7908fcf0"
+      "bytes": 69084,
+      "gzip_bytes": 11152,
+      "brotli_bytes": 9675,
+      "sha256": "3d48708dccfb7170a707a8be22e4a155d0a6102f0b31674bf78cbffb9bd58dfb"
     },
     "types.js": {
       "bytes": 11,
