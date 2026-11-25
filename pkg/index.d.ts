@@ -2,6 +2,7 @@ export { ActualSummary } from "./ActualSummary.js";
 export { DeadlockGraph } from "./DeadlockGraph.js";
 export { DeadlockViewer, deadlockPatternLabel, deadlockWhen, type DeadlockViewerProps } from "./DeadlockViewer.js";
 export { DocdbWork } from "./DocdbWork.js";
+export { ExtendedEventsViewer, type ExtendedEventsFilter, type ExtendedEventsViewerProps, } from "./ExtendedEventsViewer.js";
 export { bindPlanViewerClipboard, bindPlanViewerI18n, type MessageArgs, type PlanViewerClipboardHandler, type PlanViewerI18nAdapter, } from "./host.js";
 export { NodeDetails } from "./NodeDetails.js";
 export { OpIcon, opIcon } from "./OpIcon.js";
@@ -19,4 +20,4 @@ export { NodeProps, PlanTree, PlanView, planKindLabel, predicateLabel, shortPred
 export { PlanViewer, type PlanViewerProps, type PlanViewerTheme } from "./PlanViewer.js";
 export { Prose } from "./Prose.js";
 export { Sql } from "./Sql.js";
-export type { ChangeKind, Deadlock, DeadlockFix, DeadlockPattern, DeadlockProcess, DeadlockResource, DocdbMetrics, Engine, InsightArea, NodeRuntime, Plan, PlanChange, PlanDiff, PlanInsight, PlanKind, PlanNode, PlanNodeFacts, PlanOperatorView, PlanViewModel, QueryStat, Scenario, ScenarioKind, Severity, } from "./types.js";
+export type { ActivityClient, ChangeKind, Deadlock, DeadlockFix, DeadlockPattern, DeadlockProcess, DeadlockResource, DefinitionPayload, DocdbMetrics, Engine, ExtendedEventsBatch, ExtendedEventsFormat, ImportedEventDeadlock, ImportedEventLocation, InsightArea, MssqlExtendedEventKind, MssqlExtendedEventObservation, NativeLogIssue, NativeLogLimits, NativeLogProblem, NodeRuntime, PayloadUnavailable, Plan, PlanChange, PlanDiff, PlanInsight, PlanKind, PlanNode, PlanNodeFacts, PlanOperatorView, PlanViewModel, QueryStat, Scenario, ScenarioKind, Severity, } from "./types.js";

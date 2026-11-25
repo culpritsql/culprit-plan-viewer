@@ -2,6 +2,7 @@ export { ActualSummary } from "./ActualSummary.js";
 export { DeadlockGraph } from "./DeadlockGraph.js";
 export { DeadlockViewer, deadlockPatternLabel, deadlockWhen } from "./DeadlockViewer.js";
 export { DocdbWork } from "./DocdbWork.js";
+export { ExtendedEventsViewer, } from "./ExtendedEventsViewer.js";
 export { bindPlanViewerClipboard, bindPlanViewerI18n, } from "./host.js";
 export { NodeDetails } from "./NodeDetails.js";
 export { OpIcon, opIcon } from "./OpIcon.js";
